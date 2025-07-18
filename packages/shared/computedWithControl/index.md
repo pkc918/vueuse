@@ -9,8 +9,9 @@ Explicitly define the dependencies of computed.
 
 ## Usage
 
-```ts
+```ts twoslash
 import { computedWithControl } from '@vueuse/core'
+import { ref } from 'vue'
 
 const source = ref('foo')
 const counter = ref(0)

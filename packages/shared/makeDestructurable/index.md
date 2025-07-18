@@ -13,7 +13,7 @@ TypeScript Example:
 <!-- eslint-disable array-bracket-spacing -->
 <!-- eslint-disable ts/no-redeclare -->
 
-```ts
+```ts twoslash
 import { makeDestructurable } from '@vueuse/core'
 
 const foo = { name: 'foo' }

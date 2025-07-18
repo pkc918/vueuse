@@ -21,7 +21,7 @@ The pattern may consist of either a single integer describing the
 number of milliseconds to vibrate, or an array of integers describing
 a pattern of vibrations and pauses.
 
-```ts
+```ts twoslash
 import { useVibrate } from '@vueuse/core'
 
 // This vibrates the device for 300 ms

@@ -8,7 +8,7 @@ reactive sort array
 
 ## Usage
 
-```ts
+```ts twoslash
 import { useSorted } from '@vueuse/core'
 
 // general sort
@@ -38,7 +38,10 @@ const objSorted = useSorted(objArr, (a, b) => a.age - b.age)
 
 dirty mode will change the source array.
 
-```ts
+```ts twoslash
+import { useSorted } from '@vueuse/core'
+import { ref } from 'vue'
+
 const source = ref([10, 3, 5, 7, 2, 1, 8, 6, 9, 4])
 const sorted = useSorted(source, (a, b) => a - b, {
   dirty: true,

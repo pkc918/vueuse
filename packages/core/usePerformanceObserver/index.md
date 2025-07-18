@@ -8,8 +8,9 @@ Observe performance metrics.
 
 ## Usage
 
-```ts
+```ts twoslash
 import { usePerformanceObserver } from '@vueuse/core'
+import { ref } from 'vue'
 
 const entrys = ref<PerformanceEntry[]>([])
 usePerformanceObserver({

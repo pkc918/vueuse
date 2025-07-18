@@ -8,8 +8,9 @@ Use timeout to poll something. It will trigger callback after last task is done.
 
 ## Usage
 
-```ts
+```ts twoslash
 import { useTimeoutPoll } from '@vueuse/core'
+import { ref } from 'vue'
 
 const count = ref(0)
 

@@ -18,7 +18,7 @@ In order to make the page to be fully rendered in the screen, the additional att
 
 Then we could use `useScreenSafeArea` in the component as shown below:
 
-```ts
+```ts twoslash
 import { useScreenSafeArea } from '@vueuse/core'
 
 const {

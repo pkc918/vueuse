@@ -10,7 +10,7 @@ If a script tag already exists for the given URL, `useScriptTag()` will not crea
 
 ## Usage
 
-```ts
+```ts twoslash
 import { useScriptTag } from '@vueuse/core'
 
 useScriptTag(
@@ -28,7 +28,7 @@ The script will be automatically loaded when the component is mounted and remove
 
 Set `manual: true` to have manual control over the timing to load the script.
 
-```ts
+```ts twoslash
 import { useScriptTag } from '@vueuse/core'
 
 const { scriptTag, load, unload } = useScriptTag(

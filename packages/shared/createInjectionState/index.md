@@ -8,7 +8,7 @@ Create global state that can be injected into components.
 
 ## Usage
 
-```ts
+```ts twoslash
 import { createInjectionState } from '@vueuse/core'
 // useCounterStore.ts
 import { computed, shallowRef } from 'vue'
@@ -108,7 +108,7 @@ const { increment } = useCounterStore()!
 
 ## Provide a custom InjectionKey
 
-```ts
+```ts twoslash
 import { createInjectionState } from '@vueuse/core'
 // useCounterStore.ts
 import { computed, shallowRef } from 'vue'
@@ -134,7 +134,7 @@ const [useProvideCounterStore, useCounterStore] = createInjectionState((initialV
 
 ## Provide a custom default value
 
-```ts
+```ts twoslash
 import { createInjectionState } from '@vueuse/core'
 // useCounterStore.ts
 import { computed, shallowRef } from 'vue'

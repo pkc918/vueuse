@@ -17,7 +17,7 @@ Check out [⚗️ Vue Chemistry](https://github.com/antfu/vue-chemistry)!
 
 Basic example
 
-```ts
+```ts twoslash
 import { reactify } from '@vueuse/core'
 import { shallowRef } from 'vue'
 
@@ -45,7 +45,7 @@ An example of implementing a reactive [Pythagorean theorem](https://en.wikipedia
 
 <!-- eslint-skip -->
 
-```ts
+```ts twoslash
 import { reactify } from '@vueuse/core'
 import { shallowRef } from 'vue'
 
@@ -66,7 +66,7 @@ console.log(c.value) // 13
 
 You can also do it this way:
 
-```ts
+```ts twoslash
 import { reactify } from '@vueuse/core'
 import { shallowRef } from 'vue'
 
@@ -83,7 +83,7 @@ console.log(c.value) // 5
 
 Another example of making reactive `stringify`
 
-```ts
+```ts twoslash
 import { reactify } from '@vueuse/core'
 import { shallowRef } from 'vue'
 

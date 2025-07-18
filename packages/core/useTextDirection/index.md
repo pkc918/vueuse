@@ -8,7 +8,7 @@ Reactive [dir](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attribut
 
 ## Usage
 
-```ts
+```ts twoslash
 import { useTextDirection } from '@vueuse/core'
 
 const dir = useTextDirection() // Ref<'ltr' | 'rtl' | 'auto'>
@@ -30,7 +30,7 @@ By default, it returns `rtl` direction when dir `rtl` is applied to the `html` t
 
 ## Options
 
-```ts
+```ts twoslash
 import { useTextDirection } from '@vueuse/core'
 
 const mode = useTextDirection({

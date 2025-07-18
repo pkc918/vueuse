@@ -58,9 +58,9 @@ const { x, y } = useScroll(el)
 
 Set `behavior: smooth` to enable smooth scrolling. The `behavior` option defaults to `auto`, which means no smooth scrolling. See the `behavior` option on [`window.scrollTo()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo) for more information.
 
-```ts
+```ts twoslash
 import { useScroll } from '@vueuse/core'
-import { useTemplateRef } from 'vue'
+import { computed, ref, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
 const { x, y } = useScroll(el, { behavior: 'smooth' })
@@ -77,9 +77,9 @@ You can call the `measure()` method to manually update the scroll position and `
 
 This is useful, for example, after dynamic content changes or when you want to recalculate the scroll state outside of scroll events.
 
-```ts
+```ts twoslash
 import { useScroll } from '@vueuse/core'
-import { nextTick, onMounted, useTemplateRef, watch } from 'vue'
+import { nextTick, onMounted, shallowRef, useTemplateRef, watch } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
 const reactiveValue = shallowRef(false)

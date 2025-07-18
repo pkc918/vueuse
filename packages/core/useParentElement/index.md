@@ -22,9 +22,9 @@ onMounted(() => {
 
 It can also accept a `ref` as the first argument.
 
-```ts
+```ts twoslash
 import { useParentElement } from '@vueuse/core'
-import { shallowRef } from 'vue'
+import { onMounted, shallowRef } from 'vue'
 
 // Don't forget to bind the ref to the element
 const tooltip = shallowRef<HTMLElement | undefined>()

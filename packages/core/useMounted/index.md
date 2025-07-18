@@ -16,7 +16,9 @@ const isMounted = useMounted()
 
 Which is essentially a shorthand of:
 
-```ts
+```ts twoslash
+import { onMounted, ref } from 'vue'
+
 const isMounted = ref(false)
 
 onMounted(() => {

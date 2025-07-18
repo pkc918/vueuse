@@ -8,8 +8,9 @@ Apply `reactify` to an object
 
 ## Usage
 
-```ts
+```ts twoslash
 import { reactifyObject } from '@vueuse/core'
+import { ref } from 'vue'
 
 const reactifiedConsole = reactifyObject(console)
 

@@ -8,8 +8,9 @@ Shorthand for accessing `ref.value`
 
 ## Usage
 
-```ts
+```ts twoslash
 import { get } from '@vueuse/core'
+import { ref } from 'vue'
 
 const a = ref(42)
 
